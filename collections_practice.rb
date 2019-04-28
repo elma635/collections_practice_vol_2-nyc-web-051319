@@ -80,7 +80,7 @@ def organize_schools(schools)
           else
             by_location[location] =[]
              by_location[location] << school
-          end
-        by_location
+          end 
       end
+      by_location
     end
