@@ -70,7 +70,7 @@ end
 def organize_schools(schools)
     by_location = {} #setting var to empty hash (which you'll push into later)
       schools.each do |school, location_hash| #iterate through the array of hash
-        location = location_hash[:location] #set a var for a string for the values parameter and directly CALL THE KEY!!! 
+        location = location_hash[:location] #set a var for a string for the values parameter and directly CALL THE KEY!!!
           #by_location[location_hash[:location]] = []
           # by_location[location] << school
           #binding.pry
